@@ -1,7 +1,31 @@
-* {
-    background-color: aqua;
+body {
+    background-color: green;
+    margin: 20px;
+    padding: 20px;
+    pad: 20px;
+}
+.navbar-expand-lg .navbar-collapse {
+    display: flex;
+    justify-content: end;
+    border-radius: 2px solid yellow;
+}    
+.carouselExampleFade {
+    display: flex;
+    justify-content: center;
 }
 .container-fluid {
+    border: 10px solid greenyellow;
+}
+section {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+section p {
+    font-size: 18px;
+}
+footer {
+    display: flex;
+    justify-content: center;
 }
