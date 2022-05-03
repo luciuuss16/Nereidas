@@ -7,23 +7,38 @@ body {
 .navbar-expand-lg .navbar-collapse {
     display: flex;
     justify-content: end;
-    border-bottom-right-radius: 10px solid green;
-}    
-.carouselExampleFade {
-    display: flex;
-    justify-content: center;
 }
-.container-fluid {
-    border: 10px solid greenyellow;
+.portada {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+}   
+.portada-logo {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.navbar-nav {
+    display: flex;
+    justify-content: end;
 }
 section {
     display: flex;
     justify-content: center;
-    margin: 10px;
     padding: 10px;
 }
 section p {
-    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin: 10px;
+    padding: 10px;
+}
+.instructor {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    padding: 5px;
 }
 footer {
     display: flex;
@@ -58,6 +73,23 @@ footer {
     background-position: center center;
 }
 .contenedorv {
+    display: flex;
+    justify-content: center;
+}
+.inscription {
+    display: flex;
+    justify-content: auto;
+    margin: 15px;
+}
+.contact-section {
+    display: flex;
+    justify-content: center;
+    background-color: yellow;
+    margin: 10px;
+    padding: 10px;
+}
+.footer_title {
+    color: white;
     display: flex;
     justify-content: center;
 }
